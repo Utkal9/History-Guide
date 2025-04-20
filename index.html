@@ -1,105 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>History Guide | Explore the Past</title>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        />
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <!-- Navbar -->
-        <nav class="navbar">
-            <div class="navbar-container">
-                <div class="navbar-brand">
-                    <i class="fas fa-history"></i>
-                    <span>HistoryGuide</span>
-                </div>
-                <div class="navbar-links">
-                    <a href="#" class="active"
-                        ><i class="fas fa-home"></i> Home</a
-                    >
-                    <a href="#"><i class="fas fa-bookmark"></i> Saved</a>
-                    <a href="#"><i class="fas fa-cog"></i> Settings</a>
-                </div>
-                <div class="navbar-user">
-                    <button class="btn-signin">Sign In</button>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Main Content -->
-        <main class="main-content">
-            <div class="search-container">
-                <h1>Discover Historical Events & Places</h1>
-                <p class="subtitle">
-                    Search any historical topic, event, or place to explore its
-                    past
-                </p>
-
-                <form id="search-form" class="search-form">
-                    <div class="search-box">
-                        <i class="fas fa-search"></i>
-                        <input
-                            type="text"
-                            id="search-input"
-                            placeholder="Ask about any historical topic (e.g., 'Roman Empire', 'World War II')"
-                            autocomplete="off"
-                        />
-                        <button type="submit" class="search-btn">
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </div>
-                    <div class="search-options">
-                        <label>
-                            <input type="checkbox" name="detailed" checked />
-                            Detailed Results
-                        </label>
-                        <label>
-                            <input type="checkbox" name="images" />
-                            Include Images
-                        </label>
-                    </div>
-                </form>
-
-                <div class="examples">
-                    <p>Try searching for:</p>
-                    <div class="example-tags">
-                        <span class="tag">Ancient Egypt</span>
-                        <span class="tag">Mughal Empire</span>
-                        <span class="tag">Industrial Revolution</span>
-                        <span class="tag">Taj Mahal</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Loading Indicator -->
-            <div id="loading" class="loading hidden">
-                <div class="loading-spinner"></div>
-                <p>Searching historical records...</p>
-            </div>
-
-            <!-- Results Section -->
-            <div id="results" class="results-container">
-                <!-- Results will appear here -->
-            </div>
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-container">
-                <p>&copy; 2023 HistoryGuide. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Contact Us</a>
-                </div>
-            </div>
-        </footer>
-
-        <script src="app.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
