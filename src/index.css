@@ -3,7 +3,8 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background: #f4f4f4;
+    background: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
 }
 
 .chat-container {
@@ -13,7 +14,7 @@ body {
 }
 
 .chat-box {
-    background: white;
+    background: #333; /* Dark background for the chat box */
     border-radius: 12px;
     height: 400px;
     padding: 1rem;
@@ -31,12 +32,14 @@ body {
 
 .message.user {
     align-self: flex-end;
-    background: #dcf8c6;
+    background: #2c7be5; /* Blue background for user messages */
+    color: white; /* White text for the user */
 }
 
 .message.bot {
     align-self: flex-start;
-    background: #ececec;
+    background: #444; /* Darker background for bot messages */
+    color: white; /* White text for the bot */
 }
 
 .input-box {
@@ -49,7 +52,9 @@ input {
     flex: 1;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #555; /* Darker border */
+    background: #222; /* Dark background for the input field */
+    color: #e0e0e0; /* Light text inside the input field */
 }
 
 button {
